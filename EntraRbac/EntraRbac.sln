@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{F41AF877-FABB-4349-BAC2-2289753F92F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{68146E5C-1387-4ACC-A38D-D6BBA90581CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntraRbac.Api", "backend\EntraRbac.Api\EntraRbac.Api.csproj", "{275D2F36-B38E-47DE-859F-4BC2B1C4F6D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{275D2F36-B38E-47DE-859F-4BC2B1C4F6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275D2F36-B38E-47DE-859F-4BC2B1C4F6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275D2F36-B38E-47DE-859F-4BC2B1C4F6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275D2F36-B38E-47DE-859F-4BC2B1C4F6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{275D2F36-B38E-47DE-859F-4BC2B1C4F6D8} = {F41AF877-FABB-4349-BAC2-2289753F92F2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E29DEA9-A436-45D3-9DF3-6AE100DA0E9A}
+	EndGlobalSection
+EndGlobal
